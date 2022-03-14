@@ -1,0 +1,45 @@
+.element{
+    display: flex;
+    justify-content: space-around;
+    max-width: 700px;
+    margin: 200px auto;
+}
+.bord{
+    border: 2px solid black;
+    background-color: grey;
+    min-width: 100px;
+    min-height: 100px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+}
+.inputs{
+    display: grid;
+    text-align: center;
+    grid-template-areas: 'l1 l2'
+                         'in1 in2';
+                         padding-bottom: 100px;
+}
+input{
+    margin: 0 20px;
+}
+.content{
+    background-color:aqua;
+    border: 1px solid black;
+}
+.lable_num1 {
+    grid-area: l1;
+}
+.lable_num2 {
+    grid-area: l2;
+}
+#input1{
+    max-width: 400px;
+    margin-left: 180px;
+    
+}
+#input2{
+margin-left: 150px;
+    max-width: 400px;
+}
